@@ -34,17 +34,17 @@ body {
 }
 
 #body > #box1 > #login_box > h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 #body > #box1 > #login_box > #login_head {
-    margin: 3rem 0 0 0;
-    font-size: 2.2rem;
+    margin: 2.2rem 0 0 0;
+    font-size: 1.8rem;
 }
 
 #body > #box1 > #login_box > p {
     margin: 0.2rem 0 0 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #body > #box1 > #login_box > #login_button {
@@ -61,18 +61,18 @@ body {
 }
 
 #body > #box1 > #login_box > #login_button > h4 {
-    font-size: 1.1rem;
+    font-size: 1.3vw;
     float: right;
 }
 
 #body > #box1 > #login_box > #subline {
     width: 100%;
-    margin-top: 0.8rem;
+    margin-top: 0.6rem;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-#body > #box1 > #login_box > #subline > h4 {
+#body > #box1 > #login_box > #subline > p {
     text-align: center;
 }
 
@@ -80,4 +80,72 @@ body {
     margin-top: 11.6%;
     background-color: black;
     height: 2px;
+}
+
+#body > #box1 > #login_box > #login_form {
+    margin: 1.5rem 0 0 0.3rem;
+    width: 100%;
+}
+
+#body > #box1 > #login_box > #login_form > .cred {
+    font-size: 1.2rem;
+}
+
+#body > #box1 > #login_box > #login_form > .input {
+    width: 70%;
+    height: 3vh;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    margin: 0.4rem 0 0.4rem 0.2rem;
+    padding: 0.1rem 0 0.1rem 0.8rem;
+}
+
+#body > #box1 > #login_box > #login_form > #remember {
+    margin: 0.5rem 0 0 0.6rem;
+}
+
+#body > #box1 > #login_box > #login_form > #rem_label {
+    position: relative;
+    top: -0.1rem;
+    left: 0.3rem;
+}
+
+#body > #box1 > #login_box > #login_form > #forgot {
+    font-size: 0.9rem;
+    position: relative;
+    top: -1.2rem;
+    left: 60%;
+}
+
+#body > #box1 > #login_box > #login_form > #submit {
+    width: 50%;
+    margin-left: 20%;
+    background-color: orange;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    height: 4vh;
+    border-radius: 1rem;
+    padding: 0.4em 0 0.4em 0;
+}
+
+#body > #box1 > #login_box > #login_form > #submit:hover {
+    background-color: orange;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+}
+
+#body > #box1 > #login_box > #login_form > #create {
+    margin: 0.8rem 0 0 0;
+}
+
+#body > #box1 > #login_box > #login_form a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#body > #box1 >  #footer {
+    margin: 7vh 0 0 2rem;
 }
