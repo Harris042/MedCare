@@ -350,6 +350,11 @@ body {
     
 }
 
+#footer > #right_box {
+    margin-top: 1.2rem;
+    height: 85%;
+}
+
 #footer > #right_box > h3 {
     margin: 2rem 0 0 5rem;
     font-size: 1.8rem;
@@ -358,6 +363,19 @@ body {
 #footer > #right_box > p {
     margin: 0.4rem 0 0 5rem;
     font-size: 1rem;
+}
+
+#footer > #right_box > #logos {
+    margin: 1rem 0 0 5rem;
+    width: 19.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+}
+
+#footer > #right_box > #logos > img {
+    width: 3rem;
+    height: auto;
 }
 
 #footer > #right_box > #logos {
