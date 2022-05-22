@@ -38,6 +38,10 @@ body {
     font-weight: normal;
 }
 
+#navbar > #pages > h3:hover {
+    font-weight: bold;
+}
+
 #body {
     margin: 2rem 0 0 10rem;
     position: relative;
@@ -277,6 +281,11 @@ body {
     text-align: center;
 }
 
+#devices > #screens .buttons > .button:hover {
+    background-color: black;
+    color: white;
+}
+
 #working {
     margin: 16rem 0 5rem 3%;
     background-color: red;
@@ -348,6 +357,11 @@ body {
     margin: 0.6rem 0 0 5rem;
     padding: 0.3rem 0 0 0;
     
+}
+
+#footer > #left_box > .button:hover {
+    background-color: white;
+    color:rgb(20, 19, 19);
 }
 
 #footer > #right_box {
